@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+.header {
+    height: 30em;
+    width: 100%;
+    background-color: #F8AFBC;
+    border-bottom: 3px solid black;
+}
+
+.info {
+    height: 50vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
