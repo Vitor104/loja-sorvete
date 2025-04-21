@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./header.module.css";
-import { NavLink } from "react-router-dom";
 import hero from './heroImg.png';
-import outro from './outroteste.png';
 
 
 function Header(){
@@ -16,7 +14,7 @@ function Header(){
               <h1 className={styles.heroTitle}>Sinta o sabor da felicidade!</h1>
               <p>Sundaes cremosos, picolés refrescantes e os sorvetes mais gostosos da cidade!</p>
             </div>
-            <img className={styles.heroImg} src={outro} alt="hero image"></img>
+            <img className={styles.heroImg} src={hero} alt="hero image"></img>
           </div>
         </div>
     )
