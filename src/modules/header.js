@@ -14,7 +14,7 @@ function Header(){
               <h1 className={styles.heroTitle}>Sinta o sabor da felicidade!</h1>
               <p>Sundaes cremosos, picolés refrescantes e os sorvetes mais gostosos da cidade!</p>
             </div>
-            <img className={styles.heroImg} src={hero}></img>
+            <img className={styles.heroImg} src={hero} alt="foto do site"></img>
           </div>
         </div>
     )
