@@ -38,7 +38,7 @@ function Main() {
               <img src={fundo} className={`card-img-top ${styles.foto}`} alt="Fundo rosa" />
               <div className={`card-body ${styles.cardConteudo}`}>
                 <h5 className="card-title">Detalhes</h5>
-                <p className="card-text">💵 R$ 4,00<br />🍦 Sabores: Chocolate, Morango, Coco</p>
+                <p className="card-text">💵 R$ 1,50<br />🍦 Sabores: Amedoim, cajá, castanha do caju, chocolate, leite condensado, coco e morango.</p>
                 <button className="btn btn-secondary" onClick={() => setFlippedPicole(false)}>Voltar</button>
                 <hr></hr>
                 <a
@@ -78,7 +78,7 @@ function Main() {
               <img src={fundo} className={`card-img-top ${styles.foto}`} alt="Fundo rosa" />
               <div className={`card-body ${styles.cardConteudo}`}>
                 <h5 className="card-title">Detalhes</h5>
-                <p className="card-text">💵 R$ 4,00<br />🍦 Sabores: Chocolate, Morango, Coco</p>
+                <p className="card-text">💵 R$ 3,00<br />🍦 Sabores: Morango e brigadeiro.</p>
                 <button className="btn btn-secondary" onClick={() => setFlippedSundae(false)}>Voltar</button>
                 <hr></hr>
                 <a
@@ -105,7 +105,7 @@ function Main() {
             <div className={`card ${styles.card}`}>
               <img src={sorvete} className={`card-img-top ${styles.foto}`} alt="Foto de um sorvete pequeno" />
               <div className={`card-body ${styles.cardConteudo}`}>
-                <h5 className={`card-title ${styles.titulos}`}>Sorvete pequeno</h5>
+                <h5 className={`card-title ${styles.titulos}`}>Sorvete</h5>
                 <p className="card-text">Clique para saber mais!</p>
                 <button className="btn btn-primary" onClick={() => setFlippedSorvetePeq(true)}>Mostrar mais</button>
               </div>
@@ -118,7 +118,7 @@ function Main() {
               <img src={fundo} className={`card-img-top ${styles.foto}`} alt="Fundo rosa" />
               <div className={`card-body ${styles.cardConteudo}`}>
                 <h5 className="card-title">Detalhes</h5>
-                <p className="card-text">💵 R$ 4,00<br />🍦 Sabores: Chocolate, Morango, Coco</p>
+                <p className="card-text">💵 R$ 2,50<br />🍦 Sabores: Coco, abacaxi, amedoim, açaí, brigadeiro, napolitano, goiaba, creme passas, toff e flocos.</p>
                 <button className="btn btn-secondary" onClick={() => setFlippedSorvetePeq(false)}>Voltar</button>
                 <hr></hr>
                 <a
@@ -145,7 +145,7 @@ function Main() {
             <div className={`card ${styles.card}`}>
               <img src={sorveteGrande} className={`card-img-top ${styles.foto}`} alt="Foto de um sorvete grande" />
               <div className={`card-body ${styles.cardConteudo}`}>
-                <h5 className={`card-title ${styles.titulos}`}>Sorvete grande</h5>
+                <h5 className={`card-title ${styles.titulos}`}>Sorvete (1L)</h5>
                 <p className="card-text">Clique para saber mais!</p>
                 <button className="btn btn-primary" onClick={() => setFlippedSorveteGran(true)}>Mostrar mais</button>
               </div>
@@ -158,7 +158,7 @@ function Main() {
               <img src={fundo} className={`card-img-top ${styles.foto}`} alt="Fundo rosa" />
               <div className={`card-body ${styles.cardConteudo}`}>
                 <h5 className="card-title">Detalhes</h5>
-                <p className="card-text">💵 R$ 4,00<br />🍦 Sabores: Chocolate, Morango, Coco</p>
+                <p className="card-text">💵 R$ 15,00<br />🍦 Sabores: Toff, coco, açaí, flocos e napolitano.</p>
                 <button className="btn btn-secondary" onClick={() => setFlippedSorveteGran(false)}>Voltar</button>
                 <hr></hr>
                 <a
@@ -177,18 +177,15 @@ function Main() {
        
       </div>
 
+
+      <footer className={styles.footer}></footer>
+
             
         </div>
     )
 }
 
 
-/*
-className="card-title"
-
-
-
-*/ 
 
 
 
