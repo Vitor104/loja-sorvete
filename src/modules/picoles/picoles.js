@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './picoles.module.css';
 import Header from "../header";
-import example from '../exemplo.jpeg';
+import picole from '../picole.jpeg';
 
 function Picoles() {
   const [flipped, setFlipped] = useState(false);
@@ -16,7 +16,7 @@ function Picoles() {
           {/* Front Side */}
           <div className={styles.flipCardFront}>
             <div className={`card ${styles.card}`}>
-              <img src={example} className={`card-img-top ${styles.foto}`} alt="..." />
+              <img src={picole} className={`card-img-top ${styles.foto}`} alt="..." />
               <div className={`card-body ${styles.cardConteudo}`}>
                 <h5 className="card-title">Picolé de Chocolate</h5>
                 <p className="card-text">Clique para saber mais!</p>
@@ -28,11 +28,20 @@ function Picoles() {
           {/* Back Side */}
           <div className={styles.flipCardBack}>
             <div className={`card ${styles.card}`}>
-              <img src={example} className={`card-img-top ${styles.foto}`} alt="..." />
+              <img src={picole} className={`card-img-top ${styles.foto}`} alt="..." />
               <div className={`card-body ${styles.cardConteudo}`}>
                 <h5 className="card-title">Detalhes</h5>
                 <p className="card-text">💵 R$ 4,00<br />🍦 Sabores: Chocolate, Morango, Coco</p>
                 <button className="btn btn-secondary" onClick={() => setFlipped(false)}>Voltar</button>
+                <hr></hr>
+                <a
+                  href="https://wa.me/5583991717748" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <button className="btn btn-success">Faça já o seu pedido!</button>
+                </a>
+
               </div>
             </div>
           </div>
