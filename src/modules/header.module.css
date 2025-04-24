@@ -25,6 +25,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name: projectsEffect;
+    animation-duration: 1.5s;
 }
 
 .heroImg {
@@ -44,3 +46,7 @@
 .heroTitle {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+@keyframes projectsEffect {
+    from {transform: translate(-150px);}
+  }

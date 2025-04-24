@@ -25,6 +25,8 @@
     width: 300px;
     height: 400px;
     margin: auto;
+    animation-name: projectsEffect;
+    animation-duration: 1.5s;
   }
   
   .flipCardInner {
@@ -71,6 +73,11 @@
   height: 7em;
   width: 100%;
 }
+
+@keyframes projectsEffect {
+  from {transform: translate(-150px);}
+}
+
   
 @media only screen and (min-width: 2500px) {
   .main {
